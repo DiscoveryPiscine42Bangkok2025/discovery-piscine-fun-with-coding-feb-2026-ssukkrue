@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax {
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 { background-image: url(https://preview.redd.it/the-original-image-of-the-monkey-thinking-meme-v0-ea1hkdjnx9af1.jpeg?auto=webp&s=becb6ced6bb0749959ddc0c27286cbf909699aa3); }
+.img2 { background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcllk6-GEnzasErpV8Z0zSkvv-hjqk1pUOTg&s); }
+
+.caption {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.black-block {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px 80px;
+}
